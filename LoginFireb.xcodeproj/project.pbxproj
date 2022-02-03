@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A683B1227AAF0AF00E0160F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A683B1127AAF0AF00E0160F /* AppDelegate.swift */; };
+		1A683B1427AAF0AF00E0160F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A683B1327AAF0AF00E0160F /* SceneDelegate.swift */; };
+		1A683B1627AAF0AF00E0160F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A683B1527AAF0AF00E0160F /* ContentView.swift */; };
+		1A683B1827AAF0B400E0160F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A683B1727AAF0B400E0160F /* Assets.xcassets */; };
+		1A683B1B27AAF0B400E0160F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A683B1A27AAF0B400E0160F /* Preview Assets.xcassets */; };
+		1A683B1E27AAF0B400E0160F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A683B1C27AAF0B400E0160F /* LaunchScreen.storyboard */; };
+		1A683B2627AAF1C100E0160F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A683B2527AAF1C100E0160F /* GoogleService-Info.plist */; };
+		B440184C678E6312E0D8E997 /* Pods_LoginFireb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B52CD0300582504F29A026 /* Pods_LoginFireb.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		148F1645DAE8D2BDF76DDD46 /* Pods-LoginFireb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginFireb.debug.xcconfig"; path = "Target Support Files/Pods-LoginFireb/Pods-LoginFireb.debug.xcconfig"; sourceTree = "<group>"; };
+		1A683B0E27AAF0AF00E0160F /* LoginFireb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginFireb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A683B1127AAF0AF00E0160F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A683B1327AAF0AF00E0160F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1A683B1527AAF0AF00E0160F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A683B1727AAF0B400E0160F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A683B1A27AAF0B400E0160F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A683B1D27AAF0B400E0160F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A683B1F27AAF0B400E0160F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A683B2527AAF1C100E0160F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		52B52CD0300582504F29A026 /* Pods_LoginFireb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginFireb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D9B24C0C15D95D25562D5D1 /* Pods-LoginFireb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginFireb.release.xcconfig"; path = "Target Support Files/Pods-LoginFireb/Pods-LoginFireb.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A683B0B27AAF0AF00E0160F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B440184C678E6312E0D8E997 /* Pods_LoginFireb.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A683B0527AAF0AF00E0160F = {
+			isa = PBXGroup;
+			children = (
+				1A683B1027AAF0AF00E0160F /* LoginFireb */,
+				1A683B0F27AAF0AF00E0160F /* Products */,
+				56E19A3D825382FB4D7ECC61 /* Pods */,
+				40DF6901DD5F9467EB97C03F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A683B0F27AAF0AF00E0160F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A683B0E27AAF0AF00E0160F /* LoginFireb.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A683B1027AAF0AF00E0160F /* LoginFireb */ = {
+			isa = PBXGroup;
+			children = (
+				1A683B1127AAF0AF00E0160F /* AppDelegate.swift */,
+				1A683B1327AAF0AF00E0160F /* SceneDelegate.swift */,
+				1A683B1527AAF0AF00E0160F /* ContentView.swift */,
+				1A683B1727AAF0B400E0160F /* Assets.xcassets */,
+				1A683B1C27AAF0B400E0160F /* LaunchScreen.storyboard */,
+				1A683B1F27AAF0B400E0160F /* Info.plist */,
+				1A683B2527AAF1C100E0160F /* GoogleService-Info.plist */,
+				1A683B1927AAF0B400E0160F /* Preview Content */,
+			);
+			path = LoginFireb;
+			sourceTree = "<group>";
+		};
+		1A683B1927AAF0B400E0160F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1A683B1A27AAF0B400E0160F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		40DF6901DD5F9467EB97C03F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52B52CD0300582504F29A026 /* Pods_LoginFireb.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56E19A3D825382FB4D7ECC61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				148F1645DAE8D2BDF76DDD46 /* Pods-LoginFireb.debug.xcconfig */,
+				5D9B24C0C15D95D25562D5D1 /* Pods-LoginFireb.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A683B0D27AAF0AF00E0160F /* LoginFireb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A683B2227AAF0B400E0160F /* Build configuration list for PBXNativeTarget "LoginFireb" */;
+			buildPhases = (
+				3197BAB651A072ECB9DC2175 /* [CP] Check Pods Manifest.lock */,
+				1A683B0A27AAF0AF00E0160F /* Sources */,
+				1A683B0B27AAF0AF00E0160F /* Frameworks */,
+				1A683B0C27AAF0AF00E0160F /* Resources */,
+				329905DA76B7B58E93657D52 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginFireb;
+			productName = LoginFireb;
+			productReference = 1A683B0E27AAF0AF00E0160F /* LoginFireb.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A683B0627AAF0AF00E0160F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					1A683B0D27AAF0AF00E0160F = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 1A683B0927AAF0AF00E0160F /* Build configuration list for PBXProject "LoginFireb" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A683B0527AAF0AF00E0160F;
+			productRefGroup = 1A683B0F27AAF0AF00E0160F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A683B0D27AAF0AF00E0160F /* LoginFireb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A683B0C27AAF0AF00E0160F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A683B1E27AAF0B400E0160F /* LaunchScreen.storyboard in Resources */,
+				1A683B1B27AAF0B400E0160F /* Preview Assets.xcassets in Resources */,
+				1A683B1827AAF0B400E0160F /* Assets.xcassets in Resources */,
+				1A683B2627AAF1C100E0160F /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3197BAB651A072ECB9DC2175 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoginFireb-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		329905DA76B7B58E93657D52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginFireb/Pods-LoginFireb-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginFireb/Pods-LoginFireb-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoginFireb/Pods-LoginFireb-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A683B0A27AAF0AF00E0160F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A683B1227AAF0AF00E0160F /* AppDelegate.swift in Sources */,
+				1A683B1427AAF0AF00E0160F /* SceneDelegate.swift in Sources */,
+				1A683B1627AAF0AF00E0160F /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A683B1C27AAF0B400E0160F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A683B1D27AAF0B400E0160F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A683B2027AAF0B400E0160F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A683B2127AAF0B400E0160F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A683B2327AAF0B400E0160F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 148F1645DAE8D2BDF76DDD46 /* Pods-LoginFireb.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LoginFireb/Preview Content\"";
+				DEVELOPMENT_TEAM = 5XJGY7TQJ3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LoginFireb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Anna.violin.LoginFireb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A683B2427AAF0B400E0160F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D9B24C0C15D95D25562D5D1 /* Pods-LoginFireb.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LoginFireb/Preview Content\"";
+				DEVELOPMENT_TEAM = 5XJGY7TQJ3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LoginFireb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Anna.violin.LoginFireb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A683B0927AAF0AF00E0160F /* Build configuration list for PBXProject "LoginFireb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A683B2027AAF0B400E0160F /* Debug */,
+				1A683B2127AAF0B400E0160F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A683B2227AAF0B400E0160F /* Build configuration list for PBXNativeTarget "LoginFireb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A683B2327AAF0B400E0160F /* Debug */,
+				1A683B2427AAF0B400E0160F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A683B0627AAF0AF00E0160F /* Project object */;
+}
